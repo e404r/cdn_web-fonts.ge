@@ -1894,145 +1894,336 @@ body {
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .app-container {
-    padding: 12px 14px 40px;
+    padding: 10px 12px 36px;
   }
 
   /* Header */
   .site-header {
     flex-direction: column;
     align-items: stretch;
-    gap: 14px;
-    padding-bottom: 14px;
+    gap: 10px;
+    padding-bottom: 10px;
   }
 
   .brand-wrapper {
-    gap: 12px;
+    gap: 10px;
+    align-items: center;
   }
 
   .brand-logo {
-    width: 42px;
-    height: 42px;
-    font-size: 24px;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
   }
 
   .brand-title {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .brand-subtitle {
-    font-size: 12px;
-    line-height: 1.4;
+    display: none; /* Hide long subtitle on mobile to give immediate focus to fonts */
   }
 
   .header-actions {
     width: 100%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
   }
 
   .site-font-picker {
-    padding: 6px 10px;
+    padding: 5px 8px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .site-font-label {
+    display: none;
+  }
+
+  .site-font-select {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .theme-toggle,
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
   }
 
   .selected-fonts-badge-btn {
-    padding: 6px 12px;
-    font-size: 12.5px;
+    padding: 6px 10px;
+    font-size: 12px;
+    flex-shrink: 0;
+    gap: 6px;
   }
 
-  /* Toolbar */
+  .selected-fonts-badge-btn span:nth-child(2) {
+    display: none; /* Only show icon + count badge to save space */
+  }
+
+  /* Hero Feature Badges: Single-line horizontal scroll rail */
+  .hero-strip {
+    margin: 6px 0 10px 0;
+  }
+
+  .hero-features {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 6px;
+    padding: 6px 2px;
+    border: none;
+    background: transparent;
+  }
+
+  .hero-features::-webkit-scrollbar {
+    display: none;
+  }
+
+  .feature-item {
+    flex-shrink: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--radius-full);
+    font-size: 11.5px;
+    white-space: nowrap;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .feature-icon {
+    font-size: 15px;
+  }
+
+  /* Sticky Toolbar on Mobile */
   .sticky-toolbar {
-    margin: 10px 0 16px 0;
-    padding: 12px 14px;
-    top: 6px;
+    position: static; /* Natural scrolling on mobile prevents viewport occlusion */
+    margin: 8px 0 14px 0;
+    padding: 12px;
     border-radius: var(--radius-md);
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
   }
 
   .toolbar-row {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
-    gap: 10px;
+    gap: 8px;
   }
 
   .search-box {
     width: 100%;
-    flex: 1 1 auto;
+    flex: 1 1 100% !important;
   }
 
-  .quick-preview-box {
-    width: 100%;
-    flex: 1 1 auto;
+  .search-input {
+    padding: 9px 36px 9px 36px;
+    font-size: 13.5px;
+    height: 40px;
   }
 
-  .filter-row {
-    gap: 8px;
-  }
-
-  .category-chips,
-  .script-chips {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 4px;
-    scrollbar-width: none;
-  }
-
-  .category-chips::-webkit-scrollbar,
-  .script-chips::-webkit-scrollbar {
-    display: none;
-  }
-
-  .font-size-control {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  /* Grid */
-  .font-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .font-card {
-    padding: 18px 16px;
-    min-height: auto;
-  }
-
-  .card-header {
-    gap: 8px;
-  }
-
-  .font-title {
+  .search-icon {
+    left: 10px;
     font-size: 18px;
   }
 
-  .font-preview {
-    min-height: 60px;
-    font-size: min(var(--card-font-size, 26px), 28px) !important;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.4;
+  .search-shortcut {
+    display: none;
   }
 
-  .card-footer {
+  /* Custom Preview Text Box - Overrides desktop flex-basis */
+  .custom-text-box {
+    width: 100%;
+    flex: 1 1 100% !important;
+    height: auto !important;
+  }
+
+  .custom-text-input {
+    padding: 9px 12px 9px 36px;
+    font-size: 13.5px;
+    height: 40px;
+  }
+
+  .custom-text-icon {
+    left: 10px;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Controls: Size slider & CDN switch share 1 row */
+  .size-slider-box {
+    flex: 1 1 150px;
+    min-width: 0;
+    padding: 6px 10px;
+    gap: 6px;
+    height: 38px;
+  }
+
+  .size-slider {
+    min-width: 50px;
+  }
+
+  .size-label {
+    width: 32px;
+    font-size: 11.5px;
+  }
+
+  .cdn-switch-box {
+    flex: 0 0 auto;
+    padding: 3px 6px;
+    gap: 3px;
+    height: 38px;
+  }
+
+  .cdn-switch-label {
+    display: none; /* Hide label on mobile to save width */
+  }
+
+  .cdn-switch-btn {
+    padding: 5px 9px;
+    font-size: 11.5px;
+  }
+
+  /* Toolbar Filters & Presets: Horizontal swipeable chip rails */
+  .toolbar-filters {
     flex-direction: column;
     align-items: stretch;
+    gap: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed var(--border-color);
+  }
+
+  .filter-group,
+  .presets-group {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 6px;
+    padding: 2px 0 4px;
+    width: 100%;
+  }
+
+  .filter-group::-webkit-scrollbar,
+  .presets-group::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-label,
+  .presets-label {
+    flex-shrink: 0;
+    font-size: 11px;
+    line-height: 28px;
+    color: var(--text-muted);
+  }
+
+  .filter-chip {
+    flex-shrink: 0;
+    padding: 5px 11px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .filter-separator {
+    flex-shrink: 0;
+    width: 1px;
+    height: 16px;
+    margin: auto 2px;
+  }
+
+  .preset-btn {
+    flex-shrink: 0;
+    padding: 5px 9px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  /* Stats Bar */
+  .stats-bar {
+    margin-bottom: 12px;
+    font-size: 12px;
+    padding: 0 2px;
+  }
+
+  .stats-hint {
+    display: none; /* Hide secondary tip on mobile to eliminate clutter */
+  }
+
+  /* Font Cards Grid: Single column, high readability */
+  .font-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .font-card {
+    padding: 14px;
+    min-height: auto;
+    border-radius: var(--radius-md);
     gap: 10px;
   }
 
-  .card-actions {
-    width: 100%;
+  .card-header {
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .font-title {
+    font-size: 17px;
+  }
+
+  .font-badge {
+    padding: 2px 6px;
+    font-size: 10.5px;
+  }
+
+  .btn-select-font {
+    padding: 5px 10px;
+    font-size: 11.5px;
+  }
+
+  .font-preview {
+    min-height: 52px;
+    font-size: clamp(19px, 5.5vw, 26px) !important;
+    line-height: 1.45;
+    padding: 4px 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .card-footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    padding-top: 8px;
+    flex-wrap: wrap;
+  }
+
+  .quick-copy-group {
     display: flex;
-    gap: 8px;
+    gap: 4px;
   }
 
-  .btn-select-font,
+  .quick-copy-btn {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+
   .btn-details {
-    flex: 1;
-    justify-content: center;
+    padding: 5px 10px;
+    font-size: 11.5px;
   }
 
-  /* Modal Dialog as Mobile Bottom Sheet */
+  /* Modal Bottom Sheet */
   .modal-overlay {
     padding: 0;
     align-items: flex-end;
@@ -2041,22 +2232,22 @@ body {
   .modal-content {
     width: 100%;
     max-width: 100%;
-    max-height: 92vh;
+    max-height: 90vh;
     border-radius: 20px 20px 0 0;
     border-bottom: none;
   }
 
   .modal-header {
-    padding: 14px 16px;
+    padding: 12px 14px;
     gap: 8px;
   }
 
   .modal-title {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .modal-tabs {
-    padding: 0 10px;
+    padding: 0 8px;
     gap: 4px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -2068,15 +2259,15 @@ body {
   }
 
   .modal-tab-btn {
-    padding: 10px 8px;
-    font-size: 11.5px;
+    padding: 9px 8px;
+    font-size: 11px;
     white-space: nowrap;
     gap: 4px;
   }
 
   .modal-body {
-    padding: 14px;
-    gap: 14px;
+    padding: 12px;
+    gap: 12px;
   }
 
   .modal-preview-toolbar {
@@ -2090,67 +2281,90 @@ body {
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .modal-preview-presets::-webkit-scrollbar {
+    display: none;
   }
 
   .modal-preview-area {
-    padding: 14px;
-    min-height: 90px;
-    font-size: 18px;
+    padding: 12px;
+    min-height: 80px;
+    font-size: 17px;
   }
 
   .modal-specs-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 6px;
+  }
+
+  .spec-item {
+    padding: 8px 10px;
+  }
+
+  .spec-label {
+    font-size: 10px;
+  }
+
+  .spec-value {
+    font-size: 12px;
   }
 
   .glyphs-filter-bar {
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .glyphs-filter-bar::-webkit-scrollbar {
+    display: none;
   }
 
   .glyph-grid {
     grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
-    gap: 5px;
-    padding: 10px;
-    max-height: 200px;
+    gap: 4px;
+    padding: 8px;
+    max-height: 180px;
   }
 
   .glyph-item {
-    height: 38px;
-    font-size: 18px;
+    height: 36px;
+    font-size: 17px;
   }
 
   .snippet-title {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 6px;
   }
 
   .npm-mode-tabs {
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
   }
 
   .snippet-block {
-    padding: 10px 12px;
+    padding: 8px 10px;
   }
 
   .snippet-block code {
-    font-size: 11.5px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.45;
     word-break: break-all;
     white-space: pre-wrap;
   }
 
   .download-cards-grid {
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 8px;
   }
 
-  /* Drawer Mobile */
+  /* Drawer Mobile Bottom Sheet */
   .drawer-panel {
     width: 100%;
     max-width: 100%;
@@ -2158,28 +2372,29 @@ body {
   }
 
   .drawer-header {
-    padding: 14px 16px;
+    padding: 12px 14px;
   }
 
   .drawer-body {
-    padding: 14px;
+    padding: 12px;
   }
 
   .drawer-tabs {
-    padding: 0 12px;
+    padding: 0 10px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
   .selected-font-item {
-    padding: 10px 12px;
+    padding: 8px 10px;
   }
 
   /* Footer */
   .site-footer {
     flex-direction: column;
     align-items: flex-start;
-    gap: 14px;
+    gap: 12px;
+    padding-top: 24px;
   }
 
   .footer-links {
@@ -2190,11 +2405,20 @@ body {
 }
 
 @media (max-width: 480px) {
-  .site-font-label {
-    display: none;
+  .app-container {
+    padding: 8px 10px 32px;
   }
 
-  .selected-fonts-badge-btn span:nth-child(2) {
-    display: none;
+  .sticky-toolbar {
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .size-slider-box {
+    flex: 1 1 130px;
+  }
+
+  .font-card {
+    padding: 12px;
   }
 }
