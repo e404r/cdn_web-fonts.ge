@@ -116,11 +116,13 @@
     const link = document.createElement('link');
     link.rel = 'stylesheet';
 
-    const isLocal = window.location.protocol === 'file:' ||
+    const isDirectHost = window.location.protocol === 'file:' ||
       window.location.hostname === 'localhost' ||
-      window.location.hostname === '127.0.0.1';
+      window.location.hostname === '127.0.0.1' ||
+      window.location.hostname.endsWith('github.io') ||
+      window.location.hostname.includes('web-fonts.ge');
 
-    link.href = isLocal ? `fonts/${slug}/css/${cssFile}` : getFontCssUrl(slug, cssFile);
+    link.href = isDirectHost ? `fonts/${slug}/css/${cssFile}` : getFontCssUrl(slug, cssFile);
     link.dataset.fontSlug = slug;
     document.head.appendChild(link);
   }
