@@ -361,8 +361,10 @@
 
     // Generate combined NPM imports
     if (el.combinedNpmCode) {
-      const npmImports = selectedFonts.map(f => `import 'georgian-fonts/fonts/${f.slug}/css/${f.cssFile}';`).join('\n');
-      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ პაკეტი:\nnpm install georgian-fonts\n# ან: pnpm add georgian-fonts\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}`;
+      const pkgList = selectedFonts.map(f => `@e404r/web-font_${f.slug}`).join(' ');
+      const npmImports = selectedFonts.map(f => `import '@e404r/web-font_${f.slug}';`).join('\n');
+      const approxMb = (selectedFonts.length * 0.25).toFixed(1);
+      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ მხოლოდ თქვენ მიერ არჩეული ფონტები (${selectedFonts.length} ცალი, სულ ~${approxMb} MB):\nnpm install ${pkgList}\n\n# ან pnpm / yarn:\npnpm add ${pkgList}\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}\n\n// (შენიშვნა: თუ ყველა 122 ფონტის სრული კოლექცია გსურთ ერთად: npm install georgian-fonts)`;
     }
   }
 
@@ -448,7 +450,7 @@
     const htmlSnippet = `<link rel="stylesheet" href="${getFontCssUrl(font.slug, font.cssFile)}">`;
     const importSnippet = `@import url('${getFontCssUrl(font.slug, font.cssFile)}');`;
     const cssSnippet = `/* ${font.name} */\n.font-${font.slug} {\n  font-family: '${font.name}', sans-serif;\n}`;
-    const npmSnippet = `# 1. დააინსტალეთ პაკეტი:\nnpm install georgian-fonts\n# ან pnpm / yarn:\npnpm add georgian-fonts\n\n// 2. დააიმპორტეთ თქვენს Angular / React / Next.js / Vite ფაილში (მაგ. styles.scss / main.js / _app.js):\nimport 'georgian-fonts/fonts/${font.slug}/css/${font.cssFile}';\n\n/* 3. გამოიყენეთ CSS-ში: */\nbody {\n  font-family: '${font.name}', sans-serif;\n}`;
+    const npmSnippet = `# 1. დააინსტალეთ მხოლოდ ეს ფონტი (მსუბუქი მიკრო-პაკეტი ~200-300 KB):\nnpm install @e404r/web-font_${font.slug}\n\n# ან pnpm / yarn:\npnpm add @e404r/web-font_${font.slug}\n\n// 2. დააიმპორტეთ თქვენს Angular / React / Next.js / Vite ფაილში:\nimport '@e404r/web-font_${font.slug}';\n\n/* 3. გამოიყენეთ CSS-ში: */\nbody {\n  font-family: '${font.name}', sans-serif;\n}\n\n// შენიშვნა: ყველა 122 ფონტის სრული კოლექციისთვის: npm install georgian-fonts`;
 
     if (el.modalHtmlSnippet) el.modalHtmlSnippet.textContent = htmlSnippet;
     if (el.modalImportSnippet) el.modalImportSnippet.textContent = importSnippet;

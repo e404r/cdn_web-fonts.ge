@@ -44,31 +44,40 @@ h1, .logo {
 
 ## 📦 NPM / Package Manager ინტეგრაცია (Angular, React, Next.js, Vite, Vue)
 
-პროექტის გამოყენება შესაძლებელია როგორც ოფიციალური **npm** პაკეტი:
+პროექტი გთავაზობთ ორ მოქნილ გზას:
+
+### ვარიანტი 1: ინდივიდუალური მიკრო-პაკეტები (Fontsource Style — რეკომენდებული ⭐)
+თითოეული ფონტი ხელმისაწვდომია როგორც მსუბუქი დამოუკიდებელი პაკეტი (~**150–250 KB**). თქვენი `node_modules` არ გაიბერება და ჩამოიწერება **მხოლოდ ის ფონტი, რაც რეალურად გჭირდებათ**:
 
 ```bash
 # npm
-npm install georgian-fonts
+npm install @e404r/web-font_bpg-nino-mkhedruli
 
 # pnpm
-pnpm add georgian-fonts
+pnpm add @e404r/web-font_bpg-nino-mkhedruli
 
 # yarn
-yarn add georgian-fonts
+yarn add @e404r/web-font_bpg-nino-mkhedruli
 ```
 
-### 1. იმპორტი Angular / SCSS / CSS ფაილში (`src/styles.scss` ან `styles.css`):
-```scss
-@import "georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css";
-@import "georgian-fonts/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css";
-```
-*(ან `angular.json`-ის `styles` მასივში: `"node_modules/georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css"`)*
-
-### 2. იმპორტი React / Next.js / Vite ფაილში (`main.js`, `_app.js`, `layout.tsx`):
+**იმპორტი (React / Next.js / Vite / Angular / Vue):**
 ```javascript
-// JavaScript / TypeScript იმპორტი
+// main.js / _app.js / layout.tsx / index.ts
+import '@e404r/web-font_bpg-nino-mkhedruli';
+```
+*(ან CSS/SCSS-ში: `@import "@e404r/web-font_bpg-nino-mkhedruli";`)*
+
+---
+
+### ვარიანტი 2: სრული კოლექცია (Full Archive — 122 ფონტი)
+თუ გსურთ ყველა 122-ვე ქართული ფონტის სრული ბიბლიოთეკა ერთიანად (~67 MB):
+
+```bash
+npm install georgian-fonts
+```
+
+```javascript
 import 'georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css';
-import 'georgian-fonts/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css';
 import 'georgian-fonts/fonts/alk-life/css/alk-life.min.css';
 ```
 
