@@ -44,32 +44,32 @@ h1, .logo {
 
 ## 📦 NPM / Package Manager ინტეგრაცია (Angular, React, Next.js, Vite, Vue)
 
-პროექტის გამოყენება შესაძლებელია როგორც სტანდარტული npm პაკეტი პირდაპირ GitHub-იდან:
+პროექტის გამოყენება შესაძლებელია როგორც ოფიციალური **npm** პაკეტი:
 
 ```bash
 # npm
-npm install github:e404r/cdn_web-fonts.ge
+npm install georgian-fonts
 
 # pnpm
-pnpm add github:e404r/cdn_web-fonts.ge
+pnpm add georgian-fonts
 
 # yarn
-yarn add github:e404r/cdn_web-fonts.ge
+yarn add georgian-fonts
 ```
 
 ### 1. იმპორტი Angular / SCSS / CSS ფაილში (`src/styles.scss` ან `styles.css`):
 ```scss
-@import "cdn_web-fonts.ge/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css";
-@import "cdn_web-fonts.ge/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css";
+@import "georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css";
+@import "georgian-fonts/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css";
 ```
-*(ან `angular.json`-ის `styles` მასივში: `"node_modules/cdn_web-fonts.ge/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css"`)*
+*(ან `angular.json`-ის `styles` მასივში: `"node_modules/georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css"`)*
 
 ### 2. იმპორტი React / Next.js / Vite ფაილში (`main.js`, `_app.js`, `layout.tsx`):
 ```javascript
 // JavaScript / TypeScript იმპორტი
-import 'cdn_web-fonts.ge/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css';
-import 'cdn_web-fonts.ge/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css';
-import 'cdn_web-fonts.ge/fonts/alk-life/css/alk-life.min.css';
+import 'georgian-fonts/fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css';
+import 'georgian-fonts/fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css';
+import 'georgian-fonts/fonts/alk-life/css/alk-life.min.css';
 ```
 
 ---
