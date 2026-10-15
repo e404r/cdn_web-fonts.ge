@@ -1,0 +1,44 @@
+{
+  "name": "cdn_web-fonts.ge",
+  "version": "2.0.0",
+  "description": "Georgian Web Fonts CDN & Package — 122+ free Georgian web fonts (BPG, ALK, Arial GEO, DejaVu) with WOFF2, TTF, WOFF, EOT, and SVG formats.",
+  "main": "fonts.json",
+  "style": "fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e404r/cdn_web-fonts.ge.git"
+  },
+  "keywords": [
+    "georgian",
+    "fonts",
+    "webfonts",
+    "georgian-fonts",
+    "bpg",
+    "alk",
+    "nino-mkhedruli",
+    "nuskha",
+    "glaho",
+    "cdn",
+    "jsdelivr",
+    "typography"
+  ],
+  "author": "e404r",
+  "contributors": [
+    "Lado Lomidze <lado.lomidze@gmail.com> (Original Creator - web-fonts/cdn)",
+    "e404r (v2.0 Modernization, NPM & Catalog)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e404r/cdn_web-fonts.ge/issues"
+  },
+  "homepage": "https://github.com/e404r/cdn_web-fonts.ge#readme",
+  "files": [
+    "fonts",
+    "fonts.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build:catalog": "python3 build-catalog.py",
+    "start": "python3 -m http.server 8089"
+  }
+}

@@ -1,0 +1,1832 @@
+[
+  {
+    "name": "ALK Life",
+    "slug": "alk-life",
+    "cssFile": "alk-life.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Rex Bold",
+    "slug": "alk-rex-bold",
+    "cssFile": "alk-rex-bold.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Rounded Mtav Med",
+    "slug": "alk-rounded-mtav-med",
+    "cssFile": "alk-rounded-mtav-med.min.css",
+    "category": "ALK",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Rounded Nusx Med",
+    "slug": "alk-rounded-nusx-med",
+    "cssFile": "alk-rounded-nusx-med.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Sanet",
+    "slug": "alk-sanet",
+    "cssFile": "alk-sanet.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Tall Mtavruli",
+    "slug": "alk-tall-mtavruli",
+    "cssFile": "alk-tall-mtavruli.min.css",
+    "category": "ALK",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Tall Nusxuri",
+    "slug": "alk-tall-nusxuri",
+    "cssFile": "alk-tall-nusxuri.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALK Tommaso",
+    "slug": "alk-tommaso",
+    "cssFile": "alk-tommaso.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALKBasri-Light",
+    "slug": "alkbasri-light",
+    "cssFile": "alkbasri-light.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Light",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ALKDots",
+    "slug": "alkdots",
+    "cssFile": "alkdots.min.css",
+    "category": "ALK",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ArchyEDT-Bold",
+    "slug": "archyedt-bold",
+    "cssFile": "archyedt-bold.min.css",
+    "category": "Archy",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "ArchyEDT-Thin",
+    "slug": "archyedt-thin",
+    "cssFile": "archyedt-thin.min.css",
+    "category": "Archy",
+    "scriptType": "Mkhedruli",
+    "weight": "Light",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "Arial GEO",
+    "slug": "arial-geo",
+    "cssFile": "arial-geo.min.css",
+    "category": "Arial GEO",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "Arial GEO Bold",
+    "slug": "arial-geo-bold",
+    "cssFile": "arial-geo-bold.min.css",
+    "category": "Arial GEO",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "Arial GEO BoldItalic",
+    "slug": "arial-geo-bolditalic",
+    "cssFile": "arial-geo-bolditalic.min.css",
+    "category": "Arial GEO",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "Arial GEO Italic",
+    "slug": "arial-geo-italic",
+    "cssFile": "arial-geo-italic.min.css",
+    "category": "Arial GEO",
+    "scriptType": "Mkhedruli",
+    "weight": "Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Algeti",
+    "slug": "bpg-algeti",
+    "cssFile": "bpg-algeti.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Algeti Compact",
+    "slug": "bpg-algeti-compact",
+    "cssFile": "bpg-algeti-compact.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Arial",
+    "slug": "bpg-arial",
+    "cssFile": "bpg-arial.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Arial Caps",
+    "slug": "bpg-arial-caps",
+    "cssFile": "bpg-arial-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner",
+    "slug": "bpg-banner",
+    "cssFile": "bpg-banner.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner Caps",
+    "slug": "bpg-banner-caps",
+    "cssFile": "bpg-banner-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner ExtraSquare",
+    "slug": "bpg-banner-extrasquare",
+    "cssFile": "bpg-banner-extrasquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner ExtraSquare Caps",
+    "slug": "bpg-banner-extrasquare-caps",
+    "cssFile": "bpg-banner-extrasquare-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner QuadroSquare",
+    "slug": "bpg-banner-quadrosquare",
+    "cssFile": "bpg-banner-quadrosquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner QuadroSquare Caps",
+    "slug": "bpg-banner-quadrosquare-caps",
+    "cssFile": "bpg-banner-quadrosquare-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner SuperSquare",
+    "slug": "bpg-banner-supersquare",
+    "cssFile": "bpg-banner-supersquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Banner SuperSquare Caps",
+    "slug": "bpg-banner-supersquare-caps",
+    "cssFile": "bpg-banner-supersquare-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Boxo",
+    "slug": "bpg-boxo",
+    "cssFile": "bpg-boxo.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Boxo-Boxo",
+    "slug": "bpg-boxo-boxo",
+    "cssFile": "bpg-boxo-boxo.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Classic Medium",
+    "slug": "bpg-classic-medium",
+    "cssFile": "bpg-classic-medium.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG DedaEna Block",
+    "slug": "bpg-dedaena-block",
+    "cssFile": "bpg-dedaena-block.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG DedaEna NonBlock",
+    "slug": "bpg-dedaena-nonblock",
+    "cssFile": "bpg-dedaena-nonblock.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG ExtraSquare",
+    "slug": "bpg-extrasquare",
+    "cssFile": "bpg-extrasquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG ExtraSquare Mtavruli",
+    "slug": "bpg-extrasquare-mtavruli",
+    "cssFile": "bpg-extrasquare-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho",
+    "slug": "bpg-glaho",
+    "cssFile": "bpg-glaho.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho Arial",
+    "slug": "bpg-glaho-arial",
+    "cssFile": "bpg-glaho-arial.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho Bold",
+    "slug": "bpg-glaho-bold",
+    "cssFile": "bpg-glaho-bold.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho Traditional",
+    "slug": "bpg-glaho-traditional",
+    "cssFile": "bpg-glaho-traditional.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho WEB",
+    "slug": "bpg-glaho-web",
+    "cssFile": "bpg-glaho-web.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Glaho WEB Caps",
+    "slug": "bpg-glaho-web-caps",
+    "cssFile": "bpg-glaho-web-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Ingiri",
+    "slug": "bpg-ingiri",
+    "cssFile": "bpg-ingiri.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Ingiri Arial",
+    "slug": "bpg-ingiri-arial",
+    "cssFile": "bpg-ingiri-arial.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Irubaqidze",
+    "slug": "bpg-irubaqidze",
+    "cssFile": "bpg-irubaqidze.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG LE Studio 02",
+    "slug": "bpg-le-studio-02",
+    "cssFile": "bpg-le-studio-02.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG LE Studio 02 Caps",
+    "slug": "bpg-le-studio-02-caps",
+    "cssFile": "bpg-le-studio-02-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG LE Studio 04",
+    "slug": "bpg-le-studio-04",
+    "cssFile": "bpg-le-studio-04.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG LE Studio 04 Caps",
+    "slug": "bpg-le-studio-04-caps",
+    "cssFile": "bpg-le-studio-04-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Mikheil Stefane",
+    "slug": "bpg-mikheil-stefane",
+    "cssFile": "bpg-mikheil-stefane.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Mrgvlovani",
+    "slug": "bpg-mrgvlovani",
+    "cssFile": "bpg-mrgvlovani.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Mrgvlovani Caps",
+    "slug": "bpg-mrgvlovani-caps",
+    "cssFile": "bpg-mrgvlovani-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nateli",
+    "slug": "bpg-nateli",
+    "cssFile": "bpg-nateli.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nateli Mtavruli",
+    "slug": "bpg-nateli-mtavruli",
+    "cssFile": "bpg-nateli-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite",
+    "slug": "bpg-nino-elite",
+    "cssFile": "bpg-nino-elite.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Caps",
+    "slug": "bpg-nino-elite-caps",
+    "cssFile": "bpg-nino-elite-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Cond",
+    "slug": "bpg-nino-elite-cond",
+    "cssFile": "bpg-nino-elite-cond.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Condensed",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Cond Caps",
+    "slug": "bpg-nino-elite-cond-caps",
+    "cssFile": "bpg-nino-elite-cond-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Condensed",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Exp",
+    "slug": "bpg-nino-elite-exp",
+    "cssFile": "bpg-nino-elite-exp.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Exp Caps",
+    "slug": "bpg-nino-elite-exp-caps",
+    "cssFile": "bpg-nino-elite-exp-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Round",
+    "slug": "bpg-nino-elite-round",
+    "cssFile": "bpg-nino-elite-round.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Round Cond",
+    "slug": "bpg-nino-elite-round-cond",
+    "cssFile": "bpg-nino-elite-round-cond.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Condensed",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Ultra",
+    "slug": "bpg-nino-elite-ultra",
+    "cssFile": "bpg-nino-elite-ultra.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Elite Ultra Caps",
+    "slug": "bpg-nino-elite-ultra-caps",
+    "cssFile": "bpg-nino-elite-ultra-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Medium",
+    "slug": "bpg-nino-medium",
+    "cssFile": "bpg-nino-medium.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Medium Caps",
+    "slug": "bpg-nino-medium-caps",
+    "cssFile": "bpg-nino-medium-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Medium Condenced",
+    "slug": "bpg-nino-medium-condenced",
+    "cssFile": "bpg-nino-medium-condenced.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Condensed",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mkhedruli",
+    "slug": "bpg-nino-mkhedruli",
+    "cssFile": "bpg-nino-mkhedruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mkhedruli Bold",
+    "slug": "bpg-nino-mkhedruli-bold",
+    "cssFile": "bpg-nino-mkhedruli-bold.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mkhedruli Book",
+    "slug": "bpg-nino-mkhedruli-book",
+    "cssFile": "bpg-nino-mkhedruli-book.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mtavruli",
+    "slug": "bpg-nino-mtavruli",
+    "cssFile": "bpg-nino-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mtavruli Bold",
+    "slug": "bpg-nino-mtavruli-bold",
+    "cssFile": "bpg-nino-mtavruli-bold.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nino Mtavruli Book",
+    "slug": "bpg-nino-mtavruli-book",
+    "cssFile": "bpg-nino-mtavruli-book.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG No9",
+    "slug": "bpg-no9",
+    "cssFile": "bpg-no9.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nostalgia",
+    "slug": "bpg-nostalgia",
+    "cssFile": "bpg-nostalgia.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nostalgia Bold",
+    "slug": "bpg-nostalgia-bold",
+    "cssFile": "bpg-nostalgia-bold.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Nuskha Modern",
+    "slug": "bpg-nuskha-modern",
+    "cssFile": "bpg-nuskha-modern.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG ParaGraph Chveulebrivi",
+    "slug": "bpg-paragraph-chveulebrivi",
+    "cssFile": "bpg-paragraph-chveulebrivi.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Phone Sans",
+    "slug": "bpg-phone-sans",
+    "cssFile": "bpg-phone-sans.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Phone Sans Bold",
+    "slug": "bpg-phone-sans-bold",
+    "cssFile": "bpg-phone-sans-bold.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Phone Sans Bold Italic",
+    "slug": "bpg-phone-sans-bold-italic",
+    "cssFile": "bpg-phone-sans-bold-italic.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Phone Sans Italic",
+    "slug": "bpg-phone-sans-italic",
+    "cssFile": "bpg-phone-sans-italic.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG QuadroSquare",
+    "slug": "bpg-quadrosquare",
+    "cssFile": "bpg-quadrosquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG QuadroSquare 2013",
+    "slug": "bpg-quadrosquare-2013",
+    "cssFile": "bpg-quadrosquare-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG QuadroSquare Caps 2013",
+    "slug": "bpg-quadrosquare-caps-2013",
+    "cssFile": "bpg-quadrosquare-caps-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG QuadroSquare Mtavruli",
+    "slug": "bpg-quadrosquare-mtavruli",
+    "cssFile": "bpg-quadrosquare-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni",
+    "slug": "bpg-rioni",
+    "cssFile": "bpg-rioni.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni Arial",
+    "slug": "bpg-rioni-arial",
+    "cssFile": "bpg-rioni-arial.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni Contrast",
+    "slug": "bpg-rioni-contrast",
+    "cssFile": "bpg-rioni-contrast.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni Vera",
+    "slug": "bpg-rioni-vera",
+    "cssFile": "bpg-rioni-vera.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni Vera Condensed Light",
+    "slug": "bpg-rioni-vera-condensed-light",
+    "cssFile": "bpg-rioni-vera-condensed-light.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Light",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Rioni Vera Light",
+    "slug": "bpg-rioni-vera-light",
+    "cssFile": "bpg-rioni-vera-light.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Light",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Sans",
+    "slug": "bpg-sans",
+    "cssFile": "bpg-sans.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Square",
+    "slug": "bpg-square",
+    "cssFile": "bpg-square.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Square Banner 2013",
+    "slug": "bpg-square-banner-2013",
+    "cssFile": "bpg-square-banner-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Square Banner Caps 2013",
+    "slug": "bpg-square-banner-caps-2013",
+    "cssFile": "bpg-square-banner-caps-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Square Mtavruli",
+    "slug": "bpg-square-mtavruli",
+    "cssFile": "bpg-square-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG SuperSquare",
+    "slug": "bpg-supersquare",
+    "cssFile": "bpg-supersquare.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG SuperSquare 2013",
+    "slug": "bpg-supersquare-2013",
+    "cssFile": "bpg-supersquare-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG SuperSquare Caps 2013",
+    "slug": "bpg-supersquare-caps-2013",
+    "cssFile": "bpg-supersquare-caps-2013.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG SuperSquare Mtavruli",
+    "slug": "bpg-supersquare-mtavruli",
+    "cssFile": "bpg-supersquare-mtavruli.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Ucnobi",
+    "slug": "bpg-ucnobi",
+    "cssFile": "bpg-ucnobi.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG Venuri",
+    "slug": "bpg-venuri",
+    "cssFile": "bpg-venuri.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG WEB 001",
+    "slug": "bpg-web-001",
+    "cssFile": "bpg-web-001.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG WEB 001 Caps",
+    "slug": "bpg-web-001-caps",
+    "cssFile": "bpg-web-001-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG WEB 002",
+    "slug": "bpg-web-002",
+    "cssFile": "bpg-web-002.min.css",
+    "category": "BPG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "BPG WEB 002 Caps",
+    "slug": "bpg-web-002-caps",
+    "cssFile": "bpg-web-002-caps.min.css",
+    "category": "BPG",
+    "scriptType": "Mtavruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans",
+    "slug": "dejavu-sans",
+    "cssFile": "dejavu-sans.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Bold",
+    "slug": "dejavu-sans-bold",
+    "cssFile": "dejavu-sans-bold.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Bold Oblique",
+    "slug": "dejavu-sans-bold-oblique",
+    "cssFile": "dejavu-sans-bold-oblique.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Condensed",
+    "slug": "dejavu-sans-condensed",
+    "cssFile": "dejavu-sans-condensed.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Condensed",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Condensed Bold",
+    "slug": "dejavu-sans-condensed-bold",
+    "cssFile": "dejavu-sans-condensed-bold.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Condensed Bold Oblique",
+    "slug": "dejavu-sans-condensed-bold-oblique",
+    "cssFile": "dejavu-sans-condensed-bold-oblique.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Bold",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Condensed Oblique",
+    "slug": "dejavu-sans-condensed-oblique",
+    "cssFile": "dejavu-sans-condensed-oblique.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Extra Light",
+    "slug": "dejavu-sans-extra-light",
+    "cssFile": "dejavu-sans-extra-light.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Light",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "DejaVu Sans Oblique",
+    "slug": "dejavu-sans-oblique",
+    "cssFile": "dejavu-sans-oblique.min.css",
+    "category": "DejaVu",
+    "scriptType": "Mkhedruli",
+    "weight": "Italic",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "Gugeshashvili_Rachveli",
+    "slug": "gugeshashvili-rachveli",
+    "cssFile": "gugeshashvili-rachveli.min.css",
+    "category": "Classic",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "KA_KOLHETI",
+    "slug": "ka-kolheti",
+    "cssFile": "ka-kolheti.min.css",
+    "category": "Classic",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "KA_LORTKIPANIDZE",
+    "slug": "ka-lortkipanidze",
+    "cssFile": "ka-lortkipanidze.min.css",
+    "category": "Classic",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "MG BitNeon",
+    "slug": "mg-bitneon",
+    "cssFile": "mg-bitneon.min.css",
+    "category": "MG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "MG BitNeon Chaos",
+    "slug": "mg-bitneon-chaos",
+    "cssFile": "mg-bitneon-chaos.min.css",
+    "category": "MG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "MG BitNeon Hollow",
+    "slug": "mg-bitneon-hollow",
+    "cssFile": "mg-bitneon-hollow.min.css",
+    "category": "MG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  },
+  {
+    "name": "MG Glaho Drunk",
+    "slug": "mg-glaho-drunk",
+    "cssFile": "mg-glaho-drunk.min.css",
+    "category": "MG",
+    "scriptType": "Mkhedruli",
+    "weight": "Regular",
+    "formats": [
+      "eot",
+      "svg",
+      "ttf",
+      "woff",
+      "woff2"
+    ]
+  }
+]

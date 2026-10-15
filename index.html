@@ -1,47 +1,507 @@
-<!doctype html>
-<html lang="en" ng-app="cdn">
+<!DOCTYPE html>
+<html lang="ka" data-theme="dark" data-site-font="nino">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Web-Fonts CDN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ქართული ვებ-ფონტების CDN — 122+ უფასო ფონტი ვებსაიტებისთვის </title>
 
-    <script>
-        var fonts = ["ALK Life","ALK Rex Bold","ALK Rounded Mtav Med","ALK Rounded Nusx Med","ALK Sanet","ALK Tall Mtavruli","ALK Tall Nusxuri","ALK Tommaso","ALKBasri-Light","ALKDots","ArchyEDT-Bold","ArchyEDT-Thin","Arial GEO Bold","Arial GEO BoldItalic","Arial GEO Italic","Arial GEO","BPG Algeti Compact","BPG Algeti","BPG Arial","BPG Arial Caps","BPG Banner Caps","BPG Banner ExtraSquare Caps","BPG Banner ExtraSquare","BPG Banner QuadroSquare Caps","BPG Banner QuadroSquare","BPG Banner SuperSquare Caps","BPG Banner SuperSquare","BPG Banner","BPG Boxo-Boxo","BPG Boxo","BPG Classic Medium","BPG DedaEna Block","BPG DedaEna Nonblock","BPG ExtraSquare Mtavruli","BPG ExtraSquare","BPG Glaho Arial","BPG Glaho Bold","BPG Glaho Traditional","BPG Glaho WEB Caps","BPG Glaho WEB","BPG Glaho","BPG Ingiri Arial","BPG Ingiri","BPG Irubaqidze","BPG LE Studio 02 Caps","BPG LE Studio 02","BPG LE Studio 04 Caps","BPG LE Studio 04","BPG Mikheil Stefane","BPG Mrgvlovani Caps","BPG Mrgvlovani","BPG Nateli Mtavruli","BPG Nateli","BPG Nino Elite Caps","BPG Nino Elite Cond Caps","BPG Nino Elite Cond","BPG Nino Elite Exp Caps","BPG Nino Elite Exp","BPG Nino Elite Round Cond","BPG Nino Elite Round","BPG Nino Elite Ultra Caps","BPG Nino Elite Ultra","BPG Nino Elite","BPG Nino Medium Caps","BPG Nino Medium Condenced","BPG Nino Medium","BPG Nino Mkhedruli Bold","BPG Nino Mkhedruli Book","BPG Nino Mkhedruli","BPG Nino Mtavruli Bold","BPG Nino Mtavruli Book","BPG Nino Mtavruli","BPG No9","BPG Nostalgia Bold","BPG Nostalgia","BPG Nuskha Modern","BPG ParaGraph Chveulebrivi","BPG Phone Sans Bold Italic","BPG Phone Sans Bold","BPG Phone Sans Italic","BPG Phone Sans","BPG QuadroSquare 2013","BPG QuadroSquare Caps 2013","BPG QuadroSquare Mtavruli","BPG QuadroSquare","BPG Rioni Arial","BPG Rioni Contrast","BPG Rioni Vera Condensed Light","BPG Rioni Vera Light","BPG Rioni Vera","BPG Rioni","BPG Sans","BPG Square Banner 2013","BPG Square Banner Caps 2013","BPG Square Mtavruli","BPG Square","BPG SuperSquare 2013","BPG SuperSquare Caps 2013","BPG SuperSquare Mtavruli","BPG SuperSquare","BPG Ucnobi","BPG Venuri","BPG WEB 001 Caps","BPG WEB 001","BPG WEB 002 Caps","BPG WEB 002","DejaVu Sans", "DejaVu Sans Condensed Bold Oblique", "DejaVu Sans Condensed Oblique", "DejaVu Sans Condensed Bold", "DejaVu Sans Bold Oblique", "DejaVu Sans Extra Light", "DejaVu Sans Condensed", "DejaVu Sans Oblique", "DejaVu Sans Bold", "Gugeshashvili_Rachveli","KA_KOLHETI","KA_LORTKIPANIDZE","MG BitNeon Chaos","MG BitNeon Hollow","MG BitNeon","MG Glaho Drunk"];
-    </script>
+  <meta name="description"
+    content="ქართული ვებ-ფონტების უფასო, სწრაფი და გლობალური CDN კატალოგი. BPG, ALK, Arial GEO და სხვა ქართული ფონტები 1-click HTML/CSS ინტეგრაციითა და Live Preview-თი.">
+  <meta name="keywords"
+    content="ქართული ფონტები, ვებ ფონტები, Georgian fonts, web fonts cdn, BPG fonts, ALK fonts, jsdelivr georgian fonts">
+  <meta name="author" content="e404r / web-fonts.ge">
 
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/e404r/cdn_web-fonts.ge">
+  <meta property="og:title" content="ქართული ვებ-ფონტების CDN — 122+ უფასო ფონტი">
+  <meta property="og:description" content="სწრაფი, თანამედროვე და გლობალური CDN ქართული ვებ-ფონტებისთვის">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Material Icons from jsDelivr -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.14/iconfont/material-icons.min.css">
+
+  <!-- Georgian UI Fonts (Loaded directly from repository) -->
+  <link rel="stylesheet" href="fonts/bpg-nino-mkhedruli/css/bpg-nino-mkhedruli.min.css">
+  <link rel="stylesheet" href="fonts/bpg-nino-mkhedruli-bold/css/bpg-nino-mkhedruli-bold.min.css">
+  <link rel="stylesheet" href="fonts/bpg-nuskha-modern/css/bpg-nuskha-modern.min.css">
+  <link rel="stylesheet" href="fonts/bpg-glaho/css/bpg-glaho.min.css">
+  <link rel="stylesheet" href="fonts/alk-life/css/alk-life.min.css">
+
+  <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
-<body class="ng-cloak">
+<body>
+  <!-- Ambient background glow effects -->
+  <div class="bg-glow-orb"></div>
+  <div class="bg-glow-orb-left"></div>
 
-    <div ng-controller="MainController" class="container">
+  <div class="app-container">
 
-        <div class="header">
-            <h1>Web-Fonts CDN</h1>
-            <h3>non-production use ONLY (alpha)</h3>
+    <!-- Header Section -->
+    <header class="site-header">
+      <div class="brand-wrapper">
+        <div class="brand-icon" title="ქართული ვებ-ფონტები">ქ</div>
+        <div>
+          <div class="brand-title-wrap">
+            <h1 class="brand-title">Web<span class="brand-dot">Fonts</span></h1>
+            <span class="badge badge-pulse">CDN v2.0</span>
+            <span id="totalFontsBadge" class="badge badge-count">122 ფონტი</span>
+          </div>
+          <p class="brand-subtitle">ქართული ვებ-ფონტების სწრაფი, საიმედო და გლობალური CDN სერვისი</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Site Font Switcher (Dogfooding Georgian Web Fonts) -->
+        <div class="site-font-picker" title="საიტის ტექსტის ფონტის შეცვლა">
+          <span class="material-icons-round site-font-icon">text_fields</span>
+          <span class="site-font-label">საიტის ფონტი:</span>
+          <select id="siteFontSelect" class="site-font-select">
+            <option value="nino" selected>BPG Nino Mkhedruli</option>
+            <option value="nuskha">BPG Nuskha Modern</option>
+            <option value="glaho">BPG Glaho</option>
+            <option value="life">ALK Life</option>
+            <option value="system">სისტემური (System)</option>
+          </select>
         </div>
 
-        <input type="text" ng-model="query" spellcheck="false" autocomplete="off" class="search" placeholder="search in {{ fonts.length }} web-fonts...">
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" class="theme-toggle" title="თემის შეცვლა (Dark / Light)" aria-label="Toggle Theme">
+          <span class="material-icons-round icon-sun">light_mode</span>
+          <span class="material-icons-round icon-moon">dark_mode</span>
+        </button>
 
-        <div class="list" ng-show="(fonts | filter:query).length">
-            <div class="list__item" ng-repeat="font in fonts | filter:query">
-                <h2 class="list__title"><a href="//web-fonts.ge/{{ font | slug }}/" target="_blank">{{ font }}</a></h2>
-                <div class="usage">
-                    <label class="label-code" for="html-{{ $index }}"> HTML: </label>
-                    <input id="html-{{ $index }}" type="text" ng-click="selectText($event)" class="input-code" readonly spellcheck="false" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdn.web-fonts.ge/fonts/{{ font | slug }}/css/{{ font | slug }}.min.css&quot;&gt;" />
-                    <label class="label-code" for="css-{{ $index }}"> CSS: </label>
-                    <input id="css-{{ $index }}" type="text" ng-click="selectText($event)" class="input-code"  readonly spellcheck="false" value="body { font-family: &quot;{{ font }}&quot;; }" />
-                </div>
-            </div>
+        <!-- GitHub Repository Link -->
+        <a href="https://github.com/e404r/cdn_web-fonts.ge" target="_blank" rel="noopener noreferrer" class="btn-icon"
+          title="GitHub რეპოზიტორია">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+        </a>
+
+        <!-- Selected Fonts Cart Button -->
+        <button id="cartBtn" class="selected-fonts-badge-btn" title="არჩეული ფონტების კოდის გენერატორი">
+          <span class="material-icons-round">collections_bookmark</span>
+          <span>არჩეული ფონტები</span>
+          <span id="cartCount" class="cart-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Feature Badges -->
+    <section class="hero-strip">
+      <div class="hero-features">
+        <div class="feature-item">
+          <span class="material-icons-round feature-icon">bolt</span>
+          <span><strong>1-Click CDN</strong> ინტეგრაცია</span>
+        </div>
+        <div class="feature-item">
+          <span class="material-icons-round feature-icon">public</span>
+          <span><strong>jsDelivr</strong> გლობალური ქსელი</span>
+        </div>
+        <div class="feature-item">
+          <span class="material-icons-round feature-icon">font_download</span>
+          <span><strong>WOFF2, TTF</strong> ფორმატები</span>
+        </div>
+        <div class="feature-item">
+          <span class="material-icons-round feature-icon">verified</span>
+          <span><strong>100% უფასო</strong></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sticky Controls Toolbar -->
+    <section class="sticky-toolbar" aria-label="ფონტების ფილტრი და ძიება">
+      <!-- Top Row: Search, Custom text, Size Slider, CDN Switcher -->
+      <div class="toolbar-row">
+        <!-- Search -->
+        <div class="search-box">
+          <span class="material-icons-round search-icon">search</span>
+          <input type="text" id="searchInput" class="search-input"
+            placeholder="მოძებნე ფონტი... (მაგ: BPG, ALK, glaho, გლახო)" autocomplete="off" spellcheck="false">
+          <button id="searchClearBtn" class="search-clear-btn" title="გასუფთავება" style="display:none;">
+            <span class="material-icons-round">close</span>
+          </button>
+          <span class="search-shortcut">/</span>
         </div>
 
-        <div class="alert" ng-hide="(fonts | filter:query).length">
-            Web-font with name <strong>{{ query }}</strong> not found.
+        <!-- Custom Preview Text -->
+        <div class="custom-text-box">
+          <span class="material-icons-round custom-text-icon">edit_note</span>
+          <input type="text" id="customTextInput" class="custom-text-input" placeholder="აკრიფეთ სატესტო ტექსტი..."
+            value="თითოეული ადამიანი იბადება თავისუფალი და თანასწორი...">
         </div>
 
+        <!-- Font Size Slider -->
+        <div class="size-slider-box" title="ფონტის ზომა">
+          <button id="fontSizeDecBtn" class="size-step-btn" title="დაპატარავება">
+            <span class="material-icons-round">remove</span>
+          </button>
+          <input type="range" id="fontSizeSlider" class="size-slider" min="16" max="64" value="28" step="2">
+          <button id="fontSizeIncBtn" class="size-step-btn" title="გადიდება">
+            <span class="material-icons-round">add</span>
+          </button>
+          <span class="size-label" id="fontSizeVal">28px</span>
+        </div>
+
+        <!-- CDN Provider Switcher -->
+        <div class="cdn-switch-box" title="აირჩიეთ CDN სერვერი">
+          <span class="cdn-switch-label">CDN:</span>
+          <button class="cdn-switch-btn active" data-provider="jsdelivr"
+            title="jsDelivr Global Multi-CDN">jsDelivr</button>
+          <button class="cdn-switch-btn" data-provider="self"
+            title="cdn.web-fonts.ge პირდაპირი CDN">web-fonts.ge</button>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Filter chips & Preset text buttons -->
+      <div class="toolbar-filters">
+        <!-- Category Chips -->
+        <div class="filter-group">
+          <span class="filter-label">კატეგორია:</span>
+          <button class="filter-chip active" data-category="all">ყველა <span class="chip-count">122</span></button>
+          <button class="filter-chip" data-category="BPG">BPG <span class="chip-count">84</span></button>
+          <button class="filter-chip" data-category="ALK">ALK <span class="chip-count">24</span></button>
+          <button class="filter-chip" data-category="Arial GEO">Arial GEO <span class="chip-count">4</span></button>
+          <button class="filter-chip" data-category="DejaVu">DejaVu <span class="chip-count">9</span></button>
+          <button class="filter-chip" data-category="Other">სხვა <span class="chip-count">1</span></button>
+          <span class="filter-separator"></span>
+          <button class="filter-chip" data-script="Mkhedruli">მხედრული</button>
+          <button class="filter-chip" data-script="Mtavruli">მთავრული</button>
+        </div>
+
+        <!-- Preset Text Buttons -->
+        <div class="presets-group">
+          <span class="presets-label">ტექსტის ნიმუში:</span>
+          <button class="preset-btn" data-preset="აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ">ანბანი</button>
+          <button class="preset-btn" data-preset="ႠႡႢႣႤႥႦႧႨႩႪႫႬႭႮႯႰႱႲႳႴႵႶႷႸႹႺႻႼႽႾႿჀ">მთავრული</button>
+          <button class="preset-btn"
+            data-preset="იყო არაბეთს როსტევან, მეფე ღმრთისაგან სვიანი...">ვეფხისტყაოსანი</button>
+          <button class="preset-btn" data-preset="1234567890 ₾ $ € % ! ? - + = / № @">ციფრები & ₾</button>
+          <button class="preset-btn" data-preset="The quick brown fox jumps over the lazy dog">English</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stats-count">
+        ნაჩვენებია: <strong id="statsCount">122 / 122</strong> ფონტი
+      </div>
+      <div class="stats-hint">
+        <span class="material-icons-round hint-icon">tips_and_updates</span>
+        <span>დააჭირეთ ტექსტს ბარათზე პირდაპირ რედაქტირებისთვის</span>
+      </div>
     </div>
 
-    <script src="assets/js/angular.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <!-- Font Cards Grid -->
+    <main id="fontGrid" class="font-grid">
+      <!-- Dynamically rendered via app.js -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <div class="footer-logo">ქ</div>
+        <div>
+          <div>© 2026 ქართული ვებ-ფონტების ღია CDN სერვისი.</div>
+          <div class="footer-meta">
+            თავდაპირველი პროექტი: <a href="https://github.com/web-fonts/cdn" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Lado Lomidze (web-fonts/cdn)</a> &bull; საიტის ინტერფეისი იყენებს <strong>BPG Nino Mkhedruli</strong> ფონტს.
+          </div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/e404r/cdn_web-fonts.ge" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+          GitHub Repository
+        </a>
+        <a href="https://github.com/web-fonts/cdn" target="_blank" rel="noopener noreferrer">web-fonts/cdn</a>
+        <a href="https://www.jsdelivr.com/" target="_blank" rel="noopener noreferrer">jsDelivr CDN</a>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- =========================================================================
+       Selected Fonts Drawer (Cart / Multi-Embed)
+       ========================================================================= -->
+  <div id="drawerOverlay" class="drawer-overlay"></div>
+  <aside id="drawerPanel" class="drawer-panel" aria-label="არჩეული ფონტები">
+    <div class="drawer-header">
+      <div class="drawer-header-left">
+        <span class="material-icons-round drawer-icon">inventory_2</span>
+        <h2 class="drawer-title">არჩეული ფონტები</h2>
+      </div>
+      <button id="drawerClose" class="drawer-close" title="დახურვა">
+        <span class="material-icons-round">close</span>
+      </button>
+    </div>
+
+    <div class="drawer-body">
+      <div id="emptyDrawer" class="drawer-empty">
+        <span class="material-icons-round drawer-empty-icon">shopping_bag</span>
+        <h3>არცერთი ფონტი არ არის არჩეული</h3>
+        <p>დააჭირეთ <strong>"+ არჩევა"</strong> ღილაკს ნებისმიერ ბარათზე, რათა რამდენიმე ფონტის კოდი ერთად დააგენერიროთ.
+        </p>
+      </div>
+
+      <!-- Selected tags list -->
+      <div id="selectedList" class="selected-items-list"></div>
+
+      <!-- Snippet 1: HTML <link> -->
+      <div class="snippet-section">
+        <div class="snippet-title">
+          <span>1. HTML-ში ჩასასმელი კოდი (&lt;head&gt;)</span>
+          <button class="snippet-copy-btn" data-target="combinedHtmlCode">
+            <span class="material-icons-round btn-icon-sm">content_copy</span>
+            <span>კოპირება</span>
+          </button>
+        </div>
+        <div class="snippet-block">
+          <code id="combinedHtmlCode"></code>
+        </div>
+      </div>
+
+      <!-- Snippet 2: CSS @import -->
+      <div class="snippet-section">
+        <div class="snippet-title">
+          <span>2. CSS-ში ჩასასმელი @import</span>
+          <button class="snippet-copy-btn" data-target="combinedCssCode">
+            <span class="material-icons-round btn-icon-sm">content_copy</span>
+            <span>კოპირება</span>
+          </button>
+        </div>
+        <div class="snippet-block">
+          <code id="combinedCssCode"></code>
+        </div>
+      </div>
+
+      <!-- Snippet 3: CSS Rules -->
+      <div class="snippet-section">
+        <div class="snippet-title">
+          <span>3. CSS წესები კლასებისთვის</span>
+          <button class="snippet-copy-btn" data-target="combinedRulesCode">
+            <span class="material-icons-round btn-icon-sm">content_copy</span>
+            <span>კოპირება</span>
+          </button>
+        </div>
+        <div class="snippet-block">
+          <code id="combinedRulesCode"></code>
+        </div>
+      </div>
+
+      <!-- Snippet 4: NPM / Package Manager -->
+      <div class="snippet-section">
+        <div class="snippet-title">
+          <span>4. NPM / Package Manager (React, Next.js, Vite)</span>
+          <button class="snippet-copy-btn" data-target="combinedNpmCode">
+            <span class="material-icons-round btn-icon-sm">content_copy</span>
+            <span>კოპირება</span>
+          </button>
+        </div>
+        <div class="snippet-block">
+          <code id="combinedNpmCode"></code>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       Font Details & Glyphs Modal
+       ========================================================================= -->
+  <!-- =========================================================================
+       Font Details & Glyphs Modal (Redesigned)
+       ========================================================================= -->
+  <div id="modalOverlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <div class="modal-title-row">
+            <h2 id="modalTitle" class="modal-title"></h2>
+            <div id="modalMetaBadges" class="font-badges"></div>
+          </div>
+          <div id="modalSlugSubtitle" class="modal-slug-subtitle"></div>
+        </div>
+        <div class="modal-header-actions">
+          <button id="modalSelectBtn" class="btn-select-font" title="კალათაში დამატება">
+            <span class="material-icons-round">add</span>
+            <span>არჩევა</span>
+          </button>
+          <button id="modalClose" class="drawer-close" title="დახურვა (Esc)">
+            <span class="material-icons-round">close</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Nav Tabs -->
+      <nav class="modal-tabs" aria-label="მოდალის ტაბები">
+        <button class="modal-tab-btn active" data-tab="preview">
+          <span class="material-icons-round">visibility</span>
+          <span>მიმოხილვა და ტესტი</span>
+        </button>
+        <button class="modal-tab-btn" data-tab="glyphs">
+          <span class="material-icons-round">spellcheck</span>
+          <span>გლიფები & ანბანი</span>
+        </button>
+        <button class="modal-tab-btn" data-tab="code">
+          <span class="material-icons-round">code</span>
+          <span>ინტეგრაციის კოდი</span>
+        </button>
+        <button class="modal-tab-btn" data-tab="download">
+          <span class="material-icons-round">file_download</span>
+          <span>ფაილების ჩამოტვირთვა</span>
+        </button>
+      </nav>
+
+      <!-- Modal Body Tab Panes -->
+      <div class="modal-body">
+
+        <!-- Tab Pane 1: Preview & Specs -->
+        <div id="tabPanePreview" class="modal-tab-pane active">
+          <!-- Live Preview Controls -->
+          <div class="modal-preview-toolbar">
+            <div class="modal-preview-presets">
+              <span class="modal-preset-label">ტექსტის ნიმუში:</span>
+              <button class="modal-preset-chip active"
+                data-text="თითოეული ადამიანი იბადება თავისუფალი და თანასწორი...">თავისუფლება</button>
+              <button class="modal-preset-chip"
+                data-text="იყო არაბეთს როსტევან, მეფე ღმრთისაგან სვიანი, მაღალი, უხვი, მდაბალი...">ვეფხისტყაოსანი</button>
+              <button class="modal-preset-chip"
+                data-text="აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ ႠႡႢႣႤႥႦႧႨႩႪႫႬႭႮႯႰႱႲႳႴႵႶႷႸႹႺႻႼႽႾႿჀ">სრული ანბანი</button>
+              <button class="modal-preset-chip" data-text="0123456789 ₾ $ € % № & * / + = ? ! @ #">ციფრები & ₾</button>
+            </div>
+            <div class="modal-size-control" title="ფონტის ზომა">
+              <span class="material-icons-round" style="font-size: 16px; color: var(--text-muted);">format_size</span>
+              <span id="modalFontSizeVal" class="size-label">36px</span>
+              <input type="range" id="modalFontSizeSlider" class="size-slider" min="18" max="72" value="36" step="2">
+            </div>
+          </div>
+
+          <!-- Preview Text Editable -->
+          <div id="modalPreview" class="modal-preview-box" contenteditable="true" spellcheck="false"
+            title="დააჭირეთ ტექსტის რედაქტირებისთვის">
+            ქართული დამწერლობა — სამი სახეობა: ასომთავრული, ნუსხური და მხედრული.
+          </div>
+
+          <!-- Font Specs Cards -->
+          <div class="modal-specs-grid">
+            <div class="spec-card">
+              <span class="spec-label">ოჯახი (Family)</span>
+              <span id="specFamily" class="spec-value">—</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">სტილი / წონა</span>
+              <span id="specWeight" class="spec-value">—</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">დამწერლობა</span>
+              <span id="specScript" class="spec-value">—</span>
+            </div>
+            <div class="spec-card">
+              <span class="spec-label">კატეგორია</span>
+              <span id="specCategory" class="spec-value">—</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Pane 2: Glyphs & Alphabet -->
+        <div id="tabPaneGlyphs" class="modal-tab-pane">
+          <div class="glyphs-filter-bar">
+            <div class="glyphs-group-filter">
+              <button class="glyph-filter-chip active" data-glyph-cat="all">ყველა</button>
+              <button class="glyph-filter-chip" data-glyph-cat="mkhedruli">მხედრული</button>
+              <button class="glyph-filter-chip" data-glyph-cat="mtavruli">მთავრული</button>
+              <button class="glyph-filter-chip" data-glyph-cat="latin">ლათინური</button>
+              <button class="glyph-filter-chip" data-glyph-cat="digits">ციფრები & ₾</button>
+            </div>
+            <span class="glyphs-hint">
+              <span class="material-icons-round" style="font-size: 14px;">touch_app</span>
+              დააჭირეთ სიმბოლოს კოპირებისთვის
+            </span>
+          </div>
+          <div id="modalGlyphs" class="glyph-grid"></div>
+        </div>
+
+        <!-- Tab Pane 3: Integration Code -->
+        <div id="tabPaneCode" class="modal-tab-pane">
+          <div class="snippet-section">
+            <div class="snippet-title">
+              <span>1. HTML-ში ჩასასმელი კოდი (&lt;head&gt;)</span>
+              <button class="snippet-copy-btn" data-target="modalHtmlSnippet">
+                <span class="material-icons-round btn-icon-sm">content_copy</span>
+                <span>კოპირება</span>
+              </button>
+            </div>
+            <div class="snippet-block">
+              <code id="modalHtmlSnippet"></code>
+            </div>
+          </div>
+
+          <div class="snippet-section">
+            <div class="snippet-title">
+              <span>2. CSS-ში ჩასასმელი @import</span>
+              <button class="snippet-copy-btn" data-target="modalImportSnippet">
+                <span class="material-icons-round btn-icon-sm">content_copy</span>
+                <span>კოპირება</span>
+              </button>
+            </div>
+            <div class="snippet-block">
+              <code id="modalImportSnippet"></code>
+            </div>
+          </div>
+
+          <div class="snippet-section">
+            <div class="snippet-title">
+              <span>3. CSS წესი ელემენტებისთვის</span>
+              <button class="snippet-copy-btn" data-target="modalCssSnippet">
+                <span class="material-icons-round btn-icon-sm">content_copy</span>
+                <span>კოპირება</span>
+              </button>
+            </div>
+            <div class="snippet-block">
+              <code id="modalCssSnippet"></code>
+            </div>
+          </div>
+
+          <div class="snippet-section">
+            <div class="snippet-title">
+              <span>4. NPM / Package Manager (React, Next.js, Vite)</span>
+              <button class="snippet-copy-btn" data-target="modalNpmSnippet">
+                <span class="material-icons-round btn-icon-sm">content_copy</span>
+                <span>კოპირება</span>
+              </button>
+            </div>
+            <div class="snippet-block">
+              <code id="modalNpmSnippet"></code>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Pane 4: Direct Downloads -->
+        <div id="tabPaneDownload" class="modal-tab-pane">
+          <p class="download-tab-desc">ჩამოტვირთეთ ფონტის ფაილები ლოკალური გამოყენებისთვის, ფოტოშოპისთვის ან
+            თვით-ჰოსტინგისთვის:</p>
+          <div id="modalDownloadLinks" class="download-cards-grid"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- Fonts Catalog Data & App script -->
+  <script src="assets/js/fonts-data.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
+
 </html>
