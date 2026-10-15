@@ -50,14 +50,7 @@ h1, .logo {
 თითოეული ფონტი ხელმისაწვდომია როგორც მსუბუქი დამოუკიდებელი პაკეტი (~**150–250 KB**). თქვენი `node_modules` არ გაიბერება და ჩამოიწერება **მხოლოდ ის ფონტი, რაც რეალურად გჭირდებათ**:
 
 ```bash
-# npm
 npm install @e404r/web-font_bpg-nino-mkhedruli
-
-# pnpm
-pnpm add @e404r/web-font_bpg-nino-mkhedruli
-
-# yarn
-yarn add @e404r/web-font_bpg-nino-mkhedruli
 ```
 
 **იმპორტი (React / Next.js / Vite / Angular / Vue):**

@@ -366,7 +366,7 @@
       const pkgList = selectedFonts.map(f => `@e404r/web-font_${f.slug}`).join(' ');
       const npmImports = selectedFonts.map(f => `import '@e404r/web-font_${f.slug}';`).join('\n');
       const approxMb = (selectedFonts.length * 0.25).toFixed(1);
-      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ მხოლოდ თქვენ მიერ არჩეული ფონტები (${selectedFonts.length} ცალი, სულ ~${approxMb} MB):\nnpm install ${pkgList}\n\n# ან pnpm / yarn:\npnpm add ${pkgList}\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}\n\n// (შენიშვნა: თუ ყველა 122 ფონტის სრული კოლექცია გსურთ ერთად: npm install georgian-fonts)`;
+      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ მხოლოდ თქვენ მიერ არჩეული ფონტები (${selectedFonts.length} ცალი, სულ ~${approxMb} MB):\nnpm install ${pkgList}\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}\n\n// (შენიშვნა: თუ ყველა 122 ფონტის სრული კოლექცია გსურთ ერთად: npm install georgian-fonts)`;
     }
   }
 
@@ -384,10 +384,8 @@
     if (!state.currentModalFont || !el.modalNpmSnippet) return;
     const font = state.currentModalFont;
     if (state.modalNpmMode === 'single') {
-      el.modalNpmSnippet.textContent = `# 1. დააინსტალეთ მხოლოდ ეს ფონტი (მსუბუქი მიკრო-პაკეტი ~150-250 KB):\n` +
+      el.modalNpmSnippet.textContent = `# 1. დააინსტალეთ მხოლოდ ეს ფონტი (~200 KB):\n` +
         `npm install @e404r/web-font_${font.slug}\n\n` +
-        `# ან pnpm / yarn:\n` +
-        `pnpm add @e404r/web-font_${font.slug}\n\n` +
         `// 2. იმპორტი React / Next.js / Vite / Angular / Vue ფაილში:\n` +
         `import '@e404r/web-font_${font.slug}';\n\n` +
         `/* 3. გამოიყენეთ CSS-ში: */\n` +
@@ -397,8 +395,6 @@
     } else {
       el.modalNpmSnippet.textContent = `# 1. დააინსტალეთ ყველა 122 ფონტის სრული ბიბლიოთეკა ერთიანად (~67 MB):\n` +
         `npm install georgian-fonts\n\n` +
-        `# ან pnpm / yarn:\n` +
-        `pnpm add georgian-fonts\n\n` +
         `// 2. იმპორტი კონკრეტული ფონტის CSS ფაილის:\n` +
         `import 'georgian-fonts/fonts/${font.slug}/css/${font.cssFile}';\n\n` +
         `/* 3. გამოიყენეთ CSS-ში: */\n` +

@@ -106,14 +106,7 @@ def build_single_package(font_info, output_base):
 ## 📦 ინსტალაცია (Installation)
 
 ```bash
-# npm
 npm install {pkg_name}
-
-# pnpm
-pnpm add {pkg_name}
-
-# yarn
-yarn add {pkg_name}
 ```
 
 ## 🚀 გამოყენება (Usage)
