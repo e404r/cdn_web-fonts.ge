@@ -11,7 +11,7 @@
 
 > 💡 ეს პროექტი წარმოადგენს [web-fonts/cdn](https://github.com/web-fonts/cdn)-ის განვითარებულ და მოდერნიზებულ ვერსიას (v2.0), რომლის თავდაპირველი იდეა და შექმნა ეკუთვნის **ლადო ლომიძეს ([Lado Lomidze / web-fonts](https://github.com/web-fonts))**.
 
-🌐 **ონლაინ კატალოგი & Live Preview:** [https://cdn.web-fonts.ge](https://cdn.web-fonts.ge) (ან [GitHub Pages / jsDelivr](https://cdn.jsdelivr.net/gh/e404r/cdn_web-fonts.ge@main/))
+🌐 **ონლაინ კატალოგი & Live Preview:** [https://web-fonts.e404r.vip](https://web-fonts.e404r.vip) (ან [GitHub Pages](https://e404r.github.io/cdn_web-fonts.ge/))
 
 ---
 
@@ -83,9 +83,9 @@ https://cdn.jsdelivr.net/gh/e404r/cdn_web-fonts.ge@{ვერსია-ან-�
 - **ბრენჩით (`main`):** `https://cdn.jsdelivr.net/gh/e404r/cdn_web-fonts.ge@main/fonts/...`
 - **ტეგით (`v2.0.0`):** `https://cdn.jsdelivr.net/gh/e404r/cdn_web-fonts.ge@2.0.0/fonts/...`
 
-### 2. პირდაპირი CDN (cdn.web-fonts.ge):
+### 2. პირდაპირი CDN (web-fonts.e404r.vip):
 ```text
-https://cdn.web-fonts.ge/fonts/{ფონტის-slug}/css/{ფაილი}.min.css
+https://web-fonts.e404r.vip/fonts/{ფონტის-slug}/css/{ფაილი}.min.css
 ```
 
 ---

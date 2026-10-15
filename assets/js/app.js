@@ -102,7 +102,7 @@
   // Generate public CDN URL for embeds and copy snippets
   function getFontCssUrl(slug, cssFile) {
     if (state.cdnProvider === 'self') {
-      return `https://cdn.web-fonts.ge/fonts/${slug}/css/${cssFile}`;
+      return `https://web-fonts.e404r.vip/fonts/${slug}/css/${cssFile}`;
     }
     return `https://cdn.jsdelivr.net/gh/e404r/cdn_web-fonts.ge@main/fonts/${slug}/css/${cssFile}`;
   }
@@ -120,7 +120,8 @@
       window.location.hostname === 'localhost' ||
       window.location.hostname === '127.0.0.1' ||
       window.location.hostname.endsWith('github.io') ||
-      window.location.hostname.includes('web-fonts.ge');
+      window.location.hostname.includes('web-fonts.ge') ||
+      window.location.hostname.includes('e404r.vip');
 
     link.href = isDirectHost ? `fonts/${slug}/css/${cssFile}` : getFontCssUrl(slug, cssFile);
     link.dataset.fontSlug = slug;
