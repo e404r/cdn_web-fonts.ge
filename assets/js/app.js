@@ -363,10 +363,8 @@
 
     // Generate combined NPM imports
     if (el.combinedNpmCode) {
-      const pkgList = selectedFonts.map(f => `@e404r/web-font_${f.slug}`).join(' ');
-      const npmImports = selectedFonts.map(f => `import '@e404r/web-font_${f.slug}';`).join('\n');
-      const approxMb = (selectedFonts.length * 0.25).toFixed(1);
-      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ მხოლოდ თქვენ მიერ არჩეული ფონტები (${selectedFonts.length} ცალი, სულ ~${approxMb} MB):\nnpm install ${pkgList}\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}\n\n// (შენიშვნა: თუ ყველა 122 ფონტის სრული კოლექცია გსურთ ერთად: npm install georgian-fonts)`;
+      const npmImports = selectedFonts.map(f => `import 'georgian-fonts/fonts/${f.slug}/css/${f.cssFile}';`).join('\n');
+      el.combinedNpmCode.textContent = `# 1. დააინსტალეთ პაკეტი:\nnpm install georgian-fonts\n\n// 2. იმპორტი თქვენს Angular / Vue / React / Vite / Next.js პროექტში:\n${npmImports}`;
     }
   }
 
@@ -378,30 +376,6 @@
     }
     updateDrawer();
     renderGrid();
-  }
-
-  function updateModalNpmSnippet() {
-    if (!state.currentModalFont || !el.modalNpmSnippet) return;
-    const font = state.currentModalFont;
-    if (state.modalNpmMode === 'single') {
-      el.modalNpmSnippet.textContent = `# 1. დააინსტალეთ მხოლოდ ეს ფონტი (~200 KB):\n` +
-        `npm install @e404r/web-font_${font.slug}\n\n` +
-        `// 2. იმპორტი React / Next.js / Vite / Angular / Vue ფაილში:\n` +
-        `import '@e404r/web-font_${font.slug}';\n\n` +
-        `/* 3. გამოიყენეთ CSS-ში: */\n` +
-        `body {\n` +
-        `  font-family: '${font.name}', sans-serif;\n` +
-        `}`;
-    } else {
-      el.modalNpmSnippet.textContent = `# 1. დააინსტალეთ ყველა 122 ფონტის სრული ბიბლიოთეკა ერთიანად (~67 MB):\n` +
-        `npm install georgian-fonts\n\n` +
-        `// 2. იმპორტი კონკრეტული ფონტის CSS ფაილის:\n` +
-        `import 'georgian-fonts/fonts/${font.slug}/css/${font.cssFile}';\n\n` +
-        `/* 3. გამოიყენეთ CSS-ში: */\n` +
-        `body {\n` +
-        `  font-family: '${font.name}', sans-serif;\n` +
-        `}`;
-    }
   }
 
   // Open Details Modal (Upgraded with Tabs, Specs, Interactive Glyphs, and Downloads)
@@ -478,17 +452,12 @@
     const importSnippet = `@import url('${getFontCssUrl(font.slug, font.cssFile)}');`;
     const cssSnippet = `/* ${font.name} */\n.font-${font.slug} {\n  font-family: '${font.name}', sans-serif;\n}`;
 
+    const npmSnippet = `# 1. დააინსტალეთ პაკეტი:\nnpm install georgian-fonts\n\n// 2. დააიმპორტეთ თქვენს React / Next.js / Vite / Angular / Vue ფაილში:\nimport 'georgian-fonts/fonts/${font.slug}/css/${font.cssFile}';\n\n/* 3. გამოიყენეთ CSS-ში: */\nbody {\n  font-family: '${font.name}', sans-serif;\n}`;
+
     if (el.modalHtmlSnippet) el.modalHtmlSnippet.textContent = htmlSnippet;
     if (el.modalImportSnippet) el.modalImportSnippet.textContent = importSnippet;
     if (el.modalCssSnippet) el.modalCssSnippet.textContent = cssSnippet;
-
-    // Reset NPM mode to individual single package
-    state.modalNpmMode = 'single';
-    const singleBtn = document.getElementById('npmModeSingle');
-    const fullBtn = document.getElementById('npmModeFull');
-    if (singleBtn) singleBtn.classList.add('active');
-    if (fullBtn) fullBtn.classList.remove('active');
-    updateModalNpmSnippet();
+    if (el.modalNpmSnippet) el.modalNpmSnippet.textContent = npmSnippet;
 
     // Tab 4: Direct Download cards
     const baseUrl = `https://raw.githubusercontent.com/e404r/cdn_web-fonts.ge/main/fonts/${font.slug}/fonts/`;
@@ -750,24 +719,6 @@
         const val = e.target.value;
         if (el.modalFontSizeVal) el.modalFontSizeVal.textContent = `${val}px`;
         if (el.modalPreview) el.modalPreview.style.fontSize = `${val}px`;
-      });
-    }
-
-    // Modal NPM Mode Switcher (Single Micro-Package vs Full Archive)
-    const npmModeSingleBtn = document.getElementById('npmModeSingle');
-    const npmModeFullBtn = document.getElementById('npmModeFull');
-    if (npmModeSingleBtn && npmModeFullBtn) {
-      npmModeSingleBtn.addEventListener('click', () => {
-        state.modalNpmMode = 'single';
-        npmModeSingleBtn.classList.add('active');
-        npmModeFullBtn.classList.remove('active');
-        updateModalNpmSnippet();
-      });
-      npmModeFullBtn.addEventListener('click', () => {
-        state.modalNpmMode = 'full';
-        npmModeFullBtn.classList.add('active');
-        npmModeSingleBtn.classList.remove('active');
-        updateModalNpmSnippet();
       });
     }
 
