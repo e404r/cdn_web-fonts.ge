@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="fonts/bpg-glaho/css/bpg-glaho.min.css">
   <link rel="stylesheet" href="fonts/alk-life/css/alk-life.min.css">
 
-  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/app.css?v=2.2.0">
 </head>
 
 <body>
@@ -471,13 +471,25 @@
             </div>
           </div>
 
-          <div class="snippet-section">
-            <div class="snippet-title">
-              <span>4. NPM / Package Manager (React, Next.js, Vite)</span>
-              <button class="snippet-copy-btn" data-target="modalNpmSnippet">
-                <span class="material-icons-round btn-icon-sm">content_copy</span>
-                <span>კოპირება</span>
-              </button>
+          <div class="snippet-section npm-snippet-section">
+            <div class="snippet-title npm-snippet-title">
+              <div class="snippet-heading-group">
+                <span class="snippet-main-label">4. NPM ინსტალაცია (React, Next.js, Vite, Vue, Angular)</span>
+              </div>
+              <div class="npm-mode-tabs">
+                <button type="button" id="npmModeSingle" class="npm-mode-btn active" title="მხოლოდ ამ ფონტის მსუბუქი პაკეტი (~150-250 KB)">
+                  <span class="material-icons-round btn-icon-sm">inventory_2</span>
+                  <span>ინდივიდუალური (~200 KB)</span>
+                </button>
+                <button type="button" id="npmModeFull" class="npm-mode-btn" title="ყველა 122 ფონტის სრული კოლექცია (~67 MB)">
+                  <span class="material-icons-round btn-icon-sm">folder_zip</span>
+                  <span>სრული (122 ფონტი)</span>
+                </button>
+                <button class="snippet-copy-btn" data-target="modalNpmSnippet" title="კოდის კოპირება">
+                  <span class="material-icons-round btn-icon-sm">content_copy</span>
+                  <span>კოპირება</span>
+                </button>
+              </div>
             </div>
             <div class="snippet-block">
               <code id="modalNpmSnippet"></code>
@@ -500,8 +512,8 @@
   <div id="toastContainer" class="toast-container"></div>
 
   <!-- Fonts Catalog Data & App script -->
-  <script src="assets/js/fonts-data.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="assets/js/fonts-data.js?v=2.2.0"></script>
+  <script src="assets/js/app.js?v=2.2.0"></script>
 </body>
 
 </html>
