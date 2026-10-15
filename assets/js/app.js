@@ -448,7 +448,7 @@
     const htmlSnippet = `<link rel="stylesheet" href="${getFontCssUrl(font.slug, font.cssFile)}">`;
     const importSnippet = `@import url('${getFontCssUrl(font.slug, font.cssFile)}');`;
     const cssSnippet = `/* ${font.name} */\n.font-${font.slug} {\n  font-family: '${font.name}', sans-serif;\n}`;
-    const npmSnippet = `# 1. დააინსტალეთ პაკეტი:\nnpm install github:e404r/cdn_web-fonts.ge\n# ან pnpm / yarn:\npnpm add github:e404r/cdn_web-fonts.ge\n\n// 2. დააიმპორტეთ თქვენს React / Next.js / Vite ფაილში (მაგ. main.js / _app.js):\nimport 'cdn_web-fonts.ge/fonts/${font.slug}/css/${font.cssFile}';\n\n/* 3. გამოიყენეთ CSS-ში: */\nbody {\n  font-family: '${font.name}', sans-serif;\n}`;
+    const npmSnippet = `# 1. დააინსტალეთ პაკეტი:\nnpm install github:e404r/cdn_web-fonts.ge\n# ან pnpm / yarn:\npnpm add github:e404r/cdn_web-fonts.ge\n\n// 2. დააიმპორტეთ თქვენს Angular / React / Next.js / Vite ფაილში (მაგ. styles.scss / main.js / _app.js):\nimport 'cdn_web-fonts.ge/fonts/${font.slug}/css/${font.cssFile}';\n\n/* 3. გამოიყენეთ CSS-ში: */\nbody {\n  font-family: '${font.name}', sans-serif;\n}`;
 
     if (el.modalHtmlSnippet) el.modalHtmlSnippet.textContent = htmlSnippet;
     if (el.modalImportSnippet) el.modalImportSnippet.textContent = importSnippet;
